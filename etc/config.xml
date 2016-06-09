@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--  Explorer/Payment/etc/config.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <testpay>
+                <active>1</active>
+                <title>Testpay</title>
+                <order_status>pending_payment</order_status>
+                <instructions>Instruction.</instructions>
+                <model>MageWN\WNPayment\Model\Testpay</model>
+                <group>offline</group>
+            </testpay>
+        </payment>
+    </default>
+</config>
